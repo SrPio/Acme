@@ -10,6 +10,7 @@ import static AdminPack.vista.Vent_citas.panelCitasVent;
 import static AdminPack.vista.Vent_clientes.panelClientesVent;
 import static AdminPack.vista.Vent_facturas.panelFacturasVent;
 import static AdminPack.vista.Vent_histo_clinic.panelHistoClinicVent;
+import static AdminPack.vista.Vent_home.panelHomeDesign;
 import java.awt.BorderLayout;
 import static AdminPack.vista.Vent_procedi.panelProcediVent;
 import static AdminPack.vista.Vent_reportes.panelRepoVent;
@@ -72,6 +73,8 @@ public class AdminGui extends javax.swing.JFrame {
         BarraLateral = new javax.swing.JLabel();
         PanelCentral = new javax.swing.JPanel();
         panelCentral = new javax.swing.JPanel();
+        ImagenHome = new javax.swing.JLabel();
+        LabeBienvenido = new javax.swing.JLabel();
         botonX = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
@@ -287,15 +290,36 @@ public class AdminGui extends javax.swing.JFrame {
         PanelCentral.setBackground(new java.awt.Color(248, 248, 248));
         PanelCentral.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        panelCentral.setBackground(new java.awt.Color(255, 255, 255));
+        panelCentral.setPreferredSize(new java.awt.Dimension(780, 570));
+
+        ImagenHome.setBackground(new java.awt.Color(255, 255, 255));
+        ImagenHome.setIcon(new javax.swing.ImageIcon(getClass().getResource("/acme/Images/AdminHome.png"))); // NOI18N
+
+        LabeBienvenido.setFont(new java.awt.Font("Harlow Solid Italic", 0, 48)); // NOI18N
+        LabeBienvenido.setForeground(new java.awt.Color(252, 177, 166));
+        LabeBienvenido.setIcon(new javax.swing.ImageIcon(getClass().getResource("/acme/Images/BienvenidaHome.png"))); // NOI18N
+
         javax.swing.GroupLayout panelCentralLayout = new javax.swing.GroupLayout(panelCentral);
         panelCentral.setLayout(panelCentralLayout);
         panelCentralLayout.setHorizontalGroup(
             panelCentralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 780, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelCentralLayout.createSequentialGroup()
+                .addContainerGap(247, Short.MAX_VALUE)
+                .addComponent(ImagenHome, javax.swing.GroupLayout.PREFERRED_SIZE, 527, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+            .addGroup(panelCentralLayout.createSequentialGroup()
+                .addGap(63, 63, 63)
+                .addComponent(LabeBienvenido, javax.swing.GroupLayout.PREFERRED_SIZE, 268, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         panelCentralLayout.setVerticalGroup(
             panelCentralLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 570, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelCentralLayout.createSequentialGroup()
+                .addContainerGap(7, Short.MAX_VALUE)
+                .addComponent(LabeBienvenido, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(ImagenHome, javax.swing.GroupLayout.PREFERRED_SIZE, 408, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         PanelCentral.add(panelCentral, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, -1));
@@ -379,7 +403,15 @@ public class AdminGui extends javax.swing.JFrame {
     }//GEN-LAST:event_B_InicioMousePressed
 
     private void B_InicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_InicioActionPerformed
-        // TODO add your handling code here:
+
+        Vent_home VentHome = new Vent_home();
+        VentHome.setSize(780, 570);
+        VentHome.setLocation(30,60);
+        
+        panelCentral.removeAll();
+        panelCentral.add(panelHomeDesign, BorderLayout.CENTER);
+        panelCentral.revalidate();
+        panelCentral.repaint();
     }//GEN-LAST:event_B_InicioActionPerformed
 
     private void B_ProcedimientosMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_B_ProcedimientosMousePressed
@@ -587,6 +619,8 @@ public class AdminGui extends javax.swing.JFrame {
     private javax.swing.JButton B_Reportes;
     private javax.swing.JButton B_user;
     private javax.swing.JLabel BarraLateral;
+    private javax.swing.JLabel ImagenHome;
+    private javax.swing.JLabel LabeBienvenido;
     private javax.swing.JLabel Logo;
     private javax.swing.JPanel PanelCentral;
     private javax.swing.JButton botonX;
