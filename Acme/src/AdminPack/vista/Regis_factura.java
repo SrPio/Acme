@@ -47,12 +47,10 @@ public class Regis_factura extends javax.swing.JFrame {
         jLabel14 = new javax.swing.JLabel();
         fieldDi7 = new javax.swing.JTextField();
         jLabel15 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         fieldDi10 = new javax.swing.JTextField();
         fieldDi5 = new javax.swing.JTextField();
         jLabel13 = new javax.swing.JLabel();
-        fieldDi11 = new javax.swing.JTextField();
         fieldDi12 = new javax.swing.JTextField();
         jLabel21 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
@@ -148,10 +146,6 @@ public class Regis_factura extends javax.swing.JFrame {
         jLabel15.setForeground(new java.awt.Color(51, 51, 51));
         jLabel15.setText("VALOR TOTAL:");
 
-        jLabel18.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel18.setText("VALOR INDIVIDUAL :");
-
         jLabel19.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(51, 51, 51));
         jLabel19.setText("CONDICIONES DE PAGO :");
@@ -169,11 +163,6 @@ public class Regis_factura extends javax.swing.JFrame {
         jLabel13.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(51, 51, 51));
         jLabel13.setText("PROCEDIMIENTOS :");
-
-        fieldDi11.setBackground(new java.awt.Color(229, 229, 229));
-        fieldDi11.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        fieldDi11.setBorder(null);
-        fieldDi11.setPreferredSize(new java.awt.Dimension(59, 32));
 
         fieldDi12.setBackground(new java.awt.Color(229, 229, 229));
         fieldDi12.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
@@ -207,75 +196,72 @@ public class Regis_factura extends javax.swing.JFrame {
         panelRegisFacturaLayout.setHorizontalGroup(
             panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                .addGap(337, 337, 337)
-                .addComponent(jLabel11))
-            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addComponent(jLabel7)
-                .addGap(17, 17, 17)
-                .addComponent(fieldDi, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(122, 122, 122)
-                .addComponent(jLabel8)
-                .addGap(19, 19, 19)
-                .addComponent(fieldDi1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                .addGap(60, 60, 60)
                 .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                        .addComponent(jLabel9)
-                        .addGap(22, 22, 22)
-                        .addComponent(fieldDi2, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(337, 337, 337)
+                        .addComponent(jLabel11))
                     .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                        .addGap(30, 30, 30)
-                        .addComponent(jLabel12)))
-                .addGap(112, 112, 112)
-                .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel10)
-                    .addComponent(fieldDi3, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)))
-            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addComponent(fieldDi4, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(110, 110, 110)
-                .addComponent(jLabel14)
-                .addGap(16, 16, 16)
-                .addComponent(fieldDi6, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addComponent(jLabel19)
-                .addGap(212, 212, 212)
-                .addComponent(jLabel21))
-            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addComponent(fieldDi12, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(130, 130, 130)
-                .addComponent(fieldDi10, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addComponent(jLabel13)
-                .addGap(248, 248, 248)
-                .addComponent(jLabel18))
-            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addComponent(fieldDi5, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(130, 130, 130)
-                .addComponent(fieldDi11, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addComponent(jLabel15)
-                .addGap(280, 280, 280)
-                .addComponent(jLabel20))
-            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(fieldDi7, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel16))
-                .addGap(130, 130, 130)
-                .addComponent(fieldDi13, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addComponent(fieldDi8, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(200, 200, 200)
-                .addComponent(B_Agre_cita, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(90, 90, 90)
+                        .addComponent(jLabel7)
+                        .addGap(17, 17, 17)
+                        .addComponent(fieldDi, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(122, 122, 122)
+                        .addComponent(jLabel8)
+                        .addGap(19, 19, 19)
+                        .addComponent(fieldDi1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(panelRegisFacturaLayout.createSequentialGroup()
+                        .addGap(60, 60, 60)
+                        .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
+                                .addComponent(jLabel9)
+                                .addGap(22, 22, 22)
+                                .addComponent(fieldDi2, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
+                                .addGap(30, 30, 30)
+                                .addComponent(jLabel12)))
+                        .addGap(112, 112, 112)
+                        .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel10)
+                            .addComponent(fieldDi3, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(panelRegisFacturaLayout.createSequentialGroup()
+                        .addGap(90, 90, 90)
+                        .addComponent(fieldDi4, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(110, 110, 110)
+                        .addComponent(jLabel14)
+                        .addGap(16, 16, 16)
+                        .addComponent(fieldDi6, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(panelRegisFacturaLayout.createSequentialGroup()
+                        .addGap(90, 90, 90)
+                        .addComponent(jLabel19)
+                        .addGap(212, 212, 212)
+                        .addComponent(jLabel21))
+                    .addGroup(panelRegisFacturaLayout.createSequentialGroup()
+                        .addGap(90, 90, 90)
+                        .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(fieldDi7, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel16)))
+                    .addGroup(panelRegisFacturaLayout.createSequentialGroup()
+                        .addGap(90, 90, 90)
+                        .addComponent(fieldDi8, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(200, 200, 200)
+                        .addComponent(B_Agre_cita, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(panelRegisFacturaLayout.createSequentialGroup()
+                        .addGap(90, 90, 90)
+                        .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
+                                .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel13)
+                                    .addComponent(fieldDi5, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel15))
+                                .addGap(130, 130, 130)
+                                .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel20)
+                                    .addComponent(fieldDi13, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(panelRegisFacturaLayout.createSequentialGroup()
+                                .addComponent(fieldDi12, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(130, 130, 130)
+                                .addComponent(fieldDi10, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addGap(1, 1, 1))
         );
         panelRegisFacturaLayout.setVerticalGroup(
             panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -318,29 +304,22 @@ public class Regis_factura extends javax.swing.JFrame {
                 .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(fieldDi12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(fieldDi10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(8, 8, 8)
+                .addGap(18, 18, 18)
                 .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addComponent(jLabel13))
-                    .addComponent(jLabel18))
-                .addGap(3, 3, 3)
-                .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(fieldDi5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(fieldDi11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(8, 8, 8)
-                .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel15)
-                    .addComponent(jLabel20))
-                .addGap(3, 3, 3)
-                .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                        .addComponent(fieldDi7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel13)
+                        .addGap(3, 3, 3)
+                        .addComponent(fieldDi5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(8, 8, 8)
-                        .addComponent(jLabel16))
+                        .addComponent(jLabel15))
                     .addGroup(panelRegisFacturaLayout.createSequentialGroup()
-                        .addGap(10, 10, 10)
+                        .addComponent(jLabel20)
+                        .addGap(13, 13, 13)
                         .addComponent(fieldDi13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(3, 3, 3)
+                .addComponent(fieldDi7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(8, 8, 8)
+                .addComponent(jLabel16)
                 .addGap(3, 3, 3)
                 .addGroup(panelRegisFacturaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(fieldDi8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -389,7 +368,6 @@ public class Regis_factura extends javax.swing.JFrame {
     private javax.swing.JTextField fieldDi;
     private javax.swing.JTextField fieldDi1;
     private javax.swing.JTextField fieldDi10;
-    private javax.swing.JTextField fieldDi11;
     private javax.swing.JTextField fieldDi12;
     private javax.swing.JTextField fieldDi13;
     private javax.swing.JTextField fieldDi2;
@@ -406,7 +384,6 @@ public class Regis_factura extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
