@@ -8,6 +8,11 @@ package AdminPack.vista;
 import static AdminPack.vista.Regis_odont02.panelRegisOdonto02;
 import java.awt.BorderLayout;
 
+
+/**
+ *
+ * ededewqwffqwefqwefwqe
+ */
 /**
  *
  * @author Andres
