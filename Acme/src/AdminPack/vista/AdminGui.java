@@ -61,7 +61,7 @@ public class AdminGui extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
+        PanelAdminGuiPrincipal = new javax.swing.JPanel();
         B_Inicio = new javax.swing.JButton();
         B_Procedimientos = new javax.swing.JButton();
         B_Reportes = new javax.swing.JButton();
@@ -84,10 +84,10 @@ public class AdminGui extends javax.swing.JFrame {
         setUndecorated(true);
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(248, 248, 248));
-        jPanel1.setMaximumSize(new java.awt.Dimension(1233, 693));
-        jPanel1.setMinimumSize(new java.awt.Dimension(1233, 693));
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        PanelAdminGuiPrincipal.setBackground(new java.awt.Color(248, 248, 248));
+        PanelAdminGuiPrincipal.setMaximumSize(new java.awt.Dimension(1233, 693));
+        PanelAdminGuiPrincipal.setMinimumSize(new java.awt.Dimension(1233, 693));
+        PanelAdminGuiPrincipal.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         B_Inicio.setBackground(new java.awt.Color(255, 255, 255));
         B_Inicio.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
@@ -108,7 +108,7 @@ public class AdminGui extends javax.swing.JFrame {
                 B_InicioActionPerformed(evt);
             }
         });
-        jPanel1.add(B_Inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 80, 340, 60));
+        PanelAdminGuiPrincipal.add(B_Inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 80, 340, 60));
 
         B_Procedimientos.setBackground(new java.awt.Color(255, 255, 255));
         B_Procedimientos.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
@@ -129,7 +129,7 @@ public class AdminGui extends javax.swing.JFrame {
                 B_ProcedimientosActionPerformed(evt);
             }
         });
-        jPanel1.add(B_Procedimientos, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 130, 340, 60));
+        PanelAdminGuiPrincipal.add(B_Procedimientos, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 130, 340, 60));
 
         B_Reportes.setBackground(new java.awt.Color(255, 255, 255));
         B_Reportes.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
@@ -150,7 +150,7 @@ public class AdminGui extends javax.swing.JFrame {
                 B_ReportesActionPerformed(evt);
             }
         });
-        jPanel1.add(B_Reportes, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 180, 340, 60));
+        PanelAdminGuiPrincipal.add(B_Reportes, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 180, 340, 60));
 
         B_Citas.setBackground(new java.awt.Color(255, 255, 255));
         B_Citas.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
@@ -171,7 +171,7 @@ public class AdminGui extends javax.swing.JFrame {
                 B_CitasActionPerformed(evt);
             }
         });
-        jPanel1.add(B_Citas, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 280, 340, 60));
+        PanelAdminGuiPrincipal.add(B_Citas, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 280, 340, 60));
 
         B_Clientes.setBackground(new java.awt.Color(255, 255, 255));
         B_Clientes.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
@@ -192,7 +192,7 @@ public class AdminGui extends javax.swing.JFrame {
                 B_ClientesActionPerformed(evt);
             }
         });
-        jPanel1.add(B_Clientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 330, 340, 60));
+        PanelAdminGuiPrincipal.add(B_Clientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 330, 340, 60));
 
         B_Facturas.setBackground(new java.awt.Color(255, 255, 255));
         B_Facturas.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
@@ -213,7 +213,7 @@ public class AdminGui extends javax.swing.JFrame {
                 B_FacturasActionPerformed(evt);
             }
         });
-        jPanel1.add(B_Facturas, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 380, 340, 60));
+        PanelAdminGuiPrincipal.add(B_Facturas, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 380, 340, 60));
 
         B_ListaPacientes.setBackground(new java.awt.Color(255, 255, 255));
         B_ListaPacientes.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
@@ -234,7 +234,7 @@ public class AdminGui extends javax.swing.JFrame {
                 B_ListaPacientesActionPerformed(evt);
             }
         });
-        jPanel1.add(B_ListaPacientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 430, 340, 60));
+        PanelAdminGuiPrincipal.add(B_ListaPacientes, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 430, 340, 60));
 
         B_HistoClinicas.setBackground(new java.awt.Color(255, 255, 255));
         B_HistoClinicas.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
@@ -255,7 +255,7 @@ public class AdminGui extends javax.swing.JFrame {
                 B_HistoClinicasActionPerformed(evt);
             }
         });
-        jPanel1.add(B_HistoClinicas, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 480, 340, 60));
+        PanelAdminGuiPrincipal.add(B_HistoClinicas, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 480, 340, 60));
 
         Logo.setBackground(new java.awt.Color(102, 0, 255));
         Logo.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
@@ -263,7 +263,7 @@ public class AdminGui extends javax.swing.JFrame {
         Logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/acme/Images/Logo.png"))); // NOI18N
         Logo.setToolTipText("");
         Logo.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jPanel1.add(Logo, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 600, 150, 60));
+        PanelAdminGuiPrincipal.add(Logo, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 600, 150, 60));
 
         B_user.setBackground(new java.awt.Color(255, 255, 255));
         B_user.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
@@ -284,10 +284,10 @@ public class AdminGui extends javax.swing.JFrame {
                 B_userActionPerformed(evt);
             }
         });
-        jPanel1.add(B_user, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 230, 340, 60));
+        PanelAdminGuiPrincipal.add(B_user, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 230, 340, 60));
 
         BarraLateral.setIcon(new javax.swing.ImageIcon(getClass().getResource("/acme/Images/BarraLateral.png"))); // NOI18N
-        jPanel1.add(BarraLateral, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, 669));
+        PanelAdminGuiPrincipal.add(BarraLateral, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, 669));
 
         PanelCentral.setBackground(new java.awt.Color(248, 248, 248));
         PanelCentral.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -343,17 +343,17 @@ public class AdminGui extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/acme/Images/VentanaCentral.png"))); // NOI18N
         PanelCentral.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 674));
 
-        jPanel1.add(PanelCentral, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 10, 860, 680));
+        PanelAdminGuiPrincipal.add(PanelCentral, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 10, 860, 680));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(PanelAdminGuiPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(PanelAdminGuiPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
@@ -624,10 +624,10 @@ public class AdminGui extends javax.swing.JFrame {
     private javax.swing.JLabel ImagenHome;
     private javax.swing.JLabel LabeBienvenido;
     private javax.swing.JLabel Logo;
+    public static javax.swing.JPanel PanelAdminGuiPrincipal;
     private javax.swing.JPanel PanelCentral;
     private javax.swing.JButton botonX;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JPanel jPanel1;
     public static javax.swing.JPanel panelCentral;
     // End of variables declaration//GEN-END:variables
 }
