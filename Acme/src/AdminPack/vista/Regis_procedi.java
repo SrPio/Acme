@@ -30,8 +30,6 @@ public class Regis_procedi extends javax.swing.JFrame {
         panelRegisProcedi = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         fieldDi = new javax.swing.JTextField();
-        fieldDi1 = new javax.swing.JTextField();
-        jLabel8 = new javax.swing.JLabel();
         fieldDi2 = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
         fieldDi3 = new javax.swing.JTextField();
@@ -52,15 +50,6 @@ public class Regis_procedi extends javax.swing.JFrame {
         fieldDi.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
         fieldDi.setBorder(null);
         fieldDi.setPreferredSize(new java.awt.Dimension(59, 32));
-
-        fieldDi1.setBackground(new java.awt.Color(229, 229, 229));
-        fieldDi1.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        fieldDi1.setBorder(null);
-        fieldDi1.setPreferredSize(new java.awt.Dimension(59, 32));
-
-        jLabel8.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel8.setText("ID PROCEDIMIENTO :");
 
         fieldDi2.setBackground(new java.awt.Color(229, 229, 229));
         fieldDi2.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
@@ -100,29 +89,29 @@ public class Regis_procedi extends javax.swing.JFrame {
         panelRegisProcediLayout.setHorizontalGroup(
             panelRegisProcediLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelRegisProcediLayout.createSequentialGroup()
-                .addGap(311, 311, 311)
-                .addComponent(jLabel11))
-            .addGroup(panelRegisProcediLayout.createSequentialGroup()
-                .addGap(60, 60, 60)
-                .addComponent(jLabel7)
-                .addGap(17, 17, 17)
-                .addComponent(fieldDi, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(72, 72, 72)
-                .addComponent(jLabel8)
-                .addGap(10, 10, 10)
-                .addComponent(fieldDi1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(panelRegisProcediLayout.createSequentialGroup()
-                .addGap(60, 60, 60)
-                .addComponent(jLabel9)
-                .addGap(30, 30, 30)
-                .addComponent(fieldDi2, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(102, 102, 102)
+                .addGroup(panelRegisProcediLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelRegisProcediLayout.createSequentialGroup()
+                        .addGap(311, 311, 311)
+                        .addComponent(jLabel11))
+                    .addGroup(panelRegisProcediLayout.createSequentialGroup()
+                        .addGap(60, 60, 60)
+                        .addComponent(jLabel7)
+                        .addGap(17, 17, 17)
+                        .addComponent(fieldDi, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(panelRegisProcediLayout.createSequentialGroup()
+                        .addGap(60, 60, 60)
+                        .addComponent(jLabel9)
+                        .addGap(30, 30, 30)
+                        .addComponent(fieldDi2, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(panelRegisProcediLayout.createSequentialGroup()
+                        .addGap(520, 520, 520)
+                        .addComponent(B_Agre_cita, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(11, 11, 11))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelRegisProcediLayout.createSequentialGroup()
                 .addComponent(jLabel10)
-                .addGap(14, 14, 14)
-                .addComponent(fieldDi3, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(panelRegisProcediLayout.createSequentialGroup()
-                .addGap(520, 520, 520)
-                .addComponent(B_Agre_cita, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(fieldDi3, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(111, 111, 111))
         );
         panelRegisProcediLayout.setVerticalGroup(
             panelRegisProcediLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -132,24 +121,20 @@ public class Regis_procedi extends javax.swing.JFrame {
                 .addGap(93, 93, 93)
                 .addGroup(panelRegisProcediLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(fieldDi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(fieldDi1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(panelRegisProcediLayout.createSequentialGroup()
                         .addGap(10, 10, 10)
-                        .addGroup(panelRegisProcediLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel7)
-                            .addComponent(jLabel8))))
-                .addGap(28, 28, 28)
+                        .addComponent(jLabel7)))
+                .addGap(3, 3, 3)
+                .addGroup(panelRegisProcediLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel10)
+                    .addComponent(fieldDi3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(panelRegisProcediLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panelRegisProcediLayout.createSequentialGroup()
-                        .addGap(20, 20, 20)
+                        .addGap(26, 26, 26)
                         .addComponent(jLabel9))
                     .addGroup(panelRegisProcediLayout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addComponent(fieldDi2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(panelRegisProcediLayout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addComponent(jLabel10))
-                    .addComponent(fieldDi3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(16, 16, 16)
+                        .addComponent(fieldDi2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(198, 198, 198)
                 .addComponent(B_Agre_cita, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
@@ -189,13 +174,11 @@ public class Regis_procedi extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton B_Agre_cita;
     private javax.swing.JTextField fieldDi;
-    private javax.swing.JTextField fieldDi1;
     private javax.swing.JTextField fieldDi2;
     private javax.swing.JTextField fieldDi3;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     public static javax.swing.JPanel panelRegisProcedi;
     // End of variables declaration//GEN-END:variables
