@@ -32,23 +32,29 @@ public class Regis_odont01 extends javax.swing.JFrame {
 
         panelRegisOdonto01 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
-        fieldDi = new javax.swing.JTextField();
-        fieldDi1 = new javax.swing.JTextField();
+        fieldNombre = new javax.swing.JTextField();
+        fieldApellido = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
-        fieldDi2 = new javax.swing.JTextField();
+        fieldDocumento = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
-        fieldDi3 = new javax.swing.JTextField();
+        fieldTipoDocumento = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
-        B_Agre_cita = new javax.swing.JButton();
+        B_Agre_Odonto = new javax.swing.JButton();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        fieldDi4 = new javax.swing.JTextField();
-        fieldDi5 = new javax.swing.JTextField();
-        fieldDi6 = new javax.swing.JTextField();
+        fieldCorreo = new javax.swing.JTextField();
+        fieldLugarGraduacion = new javax.swing.JTextField();
+        fieldFechaNacimiento = new javax.swing.JTextField();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
-        fieldDi8 = new javax.swing.JTextField();
+        fieldEspecializa = new javax.swing.JTextField();
+        jLabel13 = new javax.swing.JLabel();
+        fieldUsuario = new javax.swing.JTextField();
+        fieldContraseña = new javax.swing.JTextField();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        ComboEstado = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -59,51 +65,51 @@ public class Regis_odont01 extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(51, 51, 51));
         jLabel7.setText("NOMBRE :");
 
-        fieldDi.setBackground(new java.awt.Color(229, 229, 229));
-        fieldDi.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        fieldDi.setBorder(null);
-        fieldDi.setPreferredSize(new java.awt.Dimension(59, 32));
+        fieldNombre.setBackground(new java.awt.Color(229, 229, 229));
+        fieldNombre.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        fieldNombre.setBorder(null);
+        fieldNombre.setPreferredSize(new java.awt.Dimension(59, 32));
 
-        fieldDi1.setBackground(new java.awt.Color(229, 229, 229));
-        fieldDi1.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        fieldDi1.setBorder(null);
-        fieldDi1.setPreferredSize(new java.awt.Dimension(59, 32));
+        fieldApellido.setBackground(new java.awt.Color(229, 229, 229));
+        fieldApellido.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        fieldApellido.setBorder(null);
+        fieldApellido.setPreferredSize(new java.awt.Dimension(59, 32));
 
         jLabel8.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(51, 51, 51));
         jLabel8.setText("APELLIDO :");
 
-        fieldDi2.setBackground(new java.awt.Color(229, 229, 229));
-        fieldDi2.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        fieldDi2.setBorder(null);
-        fieldDi2.setPreferredSize(new java.awt.Dimension(59, 32));
+        fieldDocumento.setBackground(new java.awt.Color(229, 229, 229));
+        fieldDocumento.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        fieldDocumento.setBorder(null);
+        fieldDocumento.setPreferredSize(new java.awt.Dimension(59, 32));
 
         jLabel9.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(51, 51, 51));
         jLabel9.setText("DOCUMENTO :");
 
-        fieldDi3.setBackground(new java.awt.Color(229, 229, 229));
-        fieldDi3.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        fieldDi3.setBorder(null);
-        fieldDi3.setPreferredSize(new java.awt.Dimension(59, 32));
+        fieldTipoDocumento.setBackground(new java.awt.Color(229, 229, 229));
+        fieldTipoDocumento.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        fieldTipoDocumento.setBorder(null);
+        fieldTipoDocumento.setPreferredSize(new java.awt.Dimension(59, 32));
 
         jLabel10.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(51, 51, 51));
         jLabel10.setText("TIPO DE DOCUMENTO :");
 
-        B_Agre_cita.setBackground(new java.awt.Color(255, 255, 255));
-        B_Agre_cita.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
-        B_Agre_cita.setForeground(new java.awt.Color(255, 255, 255));
-        B_Agre_cita.setIcon(new javax.swing.ImageIcon(getClass().getResource("/acme/Images/Boton_morado2.png"))); // NOI18N
-        B_Agre_cita.setText("CONTINUAR");
-        B_Agre_cita.setBorderPainted(false);
-        B_Agre_cita.setContentAreaFilled(false);
-        B_Agre_cita.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        B_Agre_cita.setFocusPainted(false);
-        B_Agre_cita.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        B_Agre_cita.addActionListener(new java.awt.event.ActionListener() {
+        B_Agre_Odonto.setBackground(new java.awt.Color(255, 255, 255));
+        B_Agre_Odonto.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
+        B_Agre_Odonto.setForeground(new java.awt.Color(255, 255, 255));
+        B_Agre_Odonto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/acme/Images/Boton_morado2.png"))); // NOI18N
+        B_Agre_Odonto.setText("REGISTRAR");
+        B_Agre_Odonto.setBorderPainted(false);
+        B_Agre_Odonto.setContentAreaFilled(false);
+        B_Agre_Odonto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        B_Agre_Odonto.setFocusPainted(false);
+        B_Agre_Odonto.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        B_Agre_Odonto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                B_Agre_citaActionPerformed(evt);
+                B_Agre_OdontoActionPerformed(evt);
             }
         });
 
@@ -115,20 +121,20 @@ public class Regis_odont01 extends javax.swing.JFrame {
         jLabel12.setForeground(new java.awt.Color(51, 51, 51));
         jLabel12.setText("CORREO :");
 
-        fieldDi4.setBackground(new java.awt.Color(229, 229, 229));
-        fieldDi4.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        fieldDi4.setBorder(null);
-        fieldDi4.setPreferredSize(new java.awt.Dimension(59, 32));
+        fieldCorreo.setBackground(new java.awt.Color(229, 229, 229));
+        fieldCorreo.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        fieldCorreo.setBorder(null);
+        fieldCorreo.setPreferredSize(new java.awt.Dimension(59, 32));
 
-        fieldDi5.setBackground(new java.awt.Color(229, 229, 229));
-        fieldDi5.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        fieldDi5.setBorder(null);
-        fieldDi5.setPreferredSize(new java.awt.Dimension(59, 32));
+        fieldLugarGraduacion.setBackground(new java.awt.Color(229, 229, 229));
+        fieldLugarGraduacion.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        fieldLugarGraduacion.setBorder(null);
+        fieldLugarGraduacion.setPreferredSize(new java.awt.Dimension(59, 32));
 
-        fieldDi6.setBackground(new java.awt.Color(229, 229, 229));
-        fieldDi6.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        fieldDi6.setBorder(null);
-        fieldDi6.setPreferredSize(new java.awt.Dimension(59, 32));
+        fieldFechaNacimiento.setBackground(new java.awt.Color(229, 229, 229));
+        fieldFechaNacimiento.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        fieldFechaNacimiento.setBorder(null);
+        fieldFechaNacimiento.setPreferredSize(new java.awt.Dimension(59, 32));
 
         jLabel14.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(51, 51, 51));
@@ -142,10 +148,34 @@ public class Regis_odont01 extends javax.swing.JFrame {
         jLabel16.setForeground(new java.awt.Color(51, 51, 51));
         jLabel16.setText("DESCRIPCION Y ESPECIALIZACIONES:");
 
-        fieldDi8.setBackground(new java.awt.Color(229, 229, 229));
-        fieldDi8.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        fieldDi8.setBorder(null);
-        fieldDi8.setPreferredSize(new java.awt.Dimension(59, 32));
+        fieldEspecializa.setBackground(new java.awt.Color(229, 229, 229));
+        fieldEspecializa.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        fieldEspecializa.setBorder(null);
+        fieldEspecializa.setPreferredSize(new java.awt.Dimension(59, 32));
+
+        jLabel13.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel13.setText("USUARIO :");
+
+        fieldUsuario.setBackground(new java.awt.Color(229, 229, 229));
+        fieldUsuario.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        fieldUsuario.setBorder(null);
+        fieldUsuario.setPreferredSize(new java.awt.Dimension(59, 32));
+
+        fieldContraseña.setBackground(new java.awt.Color(229, 229, 229));
+        fieldContraseña.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        fieldContraseña.setBorder(null);
+        fieldContraseña.setPreferredSize(new java.awt.Dimension(59, 32));
+
+        jLabel17.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel17.setText("CONTRASEÑA :");
+
+        jLabel18.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel18.setText("ESTADO :");
+
+        ComboEstado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Activo", "Inactivo" }));
 
         javax.swing.GroupLayout panelRegisOdonto01Layout = new javax.swing.GroupLayout(panelRegisOdonto01);
         panelRegisOdonto01.setLayout(panelRegisOdonto01Layout);
@@ -158,42 +188,56 @@ public class Regis_odont01 extends javax.swing.JFrame {
                 .addGap(90, 90, 90)
                 .addComponent(jLabel7)
                 .addGap(17, 17, 17)
-                .addComponent(fieldDi, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(fieldNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(122, 122, 122)
                 .addComponent(jLabel8)
                 .addGap(19, 19, 19)
-                .addComponent(fieldDi1, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(fieldApellido, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(panelRegisOdonto01Layout.createSequentialGroup()
                 .addGap(60, 60, 60)
                 .addComponent(jLabel9)
                 .addGap(22, 22, 22)
-                .addComponent(fieldDi2, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(fieldDocumento, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(52, 52, 52)
                 .addComponent(jLabel10)
                 .addGap(18, 18, 18)
-                .addComponent(fieldDi3, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(fieldTipoDocumento, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(panelRegisOdonto01Layout.createSequentialGroup()
                 .addGap(90, 90, 90)
                 .addComponent(jLabel12)
                 .addGap(20, 20, 20)
-                .addComponent(fieldDi4, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(fieldCorreo, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(42, 42, 42)
                 .addComponent(jLabel14)
                 .addGap(13, 13, 13)
-                .addComponent(fieldDi6, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(fieldFechaNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(panelRegisOdonto01Layout.createSequentialGroup()
                 .addGap(90, 90, 90)
                 .addComponent(jLabel15)
                 .addGap(212, 212, 212)
                 .addComponent(jLabel16))
             .addGroup(panelRegisOdonto01Layout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addComponent(fieldDi5, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(130, 130, 130)
-                .addComponent(fieldDi8, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(panelRegisOdonto01Layout.createSequentialGroup()
                 .addGap(520, 520, 520)
-                .addComponent(B_Agre_cita, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(B_Agre_Odonto, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(panelRegisOdonto01Layout.createSequentialGroup()
+                .addGap(90, 90, 90)
+                .addGroup(panelRegisOdonto01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelRegisOdonto01Layout.createSequentialGroup()
+                        .addComponent(jLabel13)
+                        .addGap(17, 17, 17)
+                        .addComponent(fieldUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(66, 66, 66)
+                        .addComponent(jLabel17)
+                        .addGap(18, 18, 18)
+                        .addComponent(fieldContraseña, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(panelRegisOdonto01Layout.createSequentialGroup()
+                        .addComponent(jLabel18)
+                        .addGap(22, 22, 22)
+                        .addComponent(ComboEstado, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(panelRegisOdonto01Layout.createSequentialGroup()
+                        .addComponent(fieldLugarGraduacion, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(130, 130, 130)
+                        .addComponent(fieldEspecializa, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE))))
         );
         panelRegisOdonto01Layout.setVerticalGroup(
             panelRegisOdonto01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -202,8 +246,8 @@ public class Regis_odont01 extends javax.swing.JFrame {
                 .addComponent(jLabel11)
                 .addGap(72, 72, 72)
                 .addGroup(panelRegisOdonto01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(fieldDi, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(fieldDi1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fieldNombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fieldApellido, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(panelRegisOdonto01Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addGroup(panelRegisOdonto01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -212,25 +256,39 @@ public class Regis_odont01 extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(panelRegisOdonto01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel9)
-                    .addComponent(fieldDi2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fieldDocumento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel10)
-                    .addComponent(fieldDi3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(fieldTipoDocumento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(panelRegisOdonto01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel12)
-                    .addComponent(fieldDi4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fieldCorreo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel14)
-                    .addComponent(fieldDi6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(fieldFechaNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(38, 38, 38)
                 .addGroup(panelRegisOdonto01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel15)
                     .addComponent(jLabel16))
                 .addGap(3, 3, 3)
                 .addGroup(panelRegisOdonto01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(fieldDi5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(fieldDi8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(98, 98, 98)
-                .addComponent(B_Agre_cita, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(fieldLugarGraduacion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fieldEspecializa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(34, 34, 34)
+                .addGroup(panelRegisOdonto01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelRegisOdonto01Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addComponent(jLabel13))
+                    .addComponent(fieldUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(panelRegisOdonto01Layout.createSequentialGroup()
+                        .addGap(7, 7, 7)
+                        .addComponent(jLabel17))
+                    .addComponent(fieldContraseña, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(panelRegisOdonto01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel18)
+                    .addComponent(ComboEstado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(B_Agre_Odonto, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -247,18 +305,9 @@ public class Regis_odont01 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void B_Agre_citaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_Agre_citaActionPerformed
+    private void B_Agre_OdontoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_Agre_OdontoActionPerformed
 
-        
-        Regis_odont02 RegisOdont02 = new Regis_odont02();
-        RegisOdont02.setSize(780, 570);
-        RegisOdont02.setLocation(30,60);
-        
-        panelRegisOdonto01.removeAll();
-        panelRegisOdonto01.add(panelRegisOdonto02, BorderLayout.CENTER);
-        panelRegisOdonto01.revalidate();
-        panelRegisOdonto01.repaint();
-    }//GEN-LAST:event_B_Agre_citaActionPerformed
+    }//GEN-LAST:event_B_Agre_OdontoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -279,21 +328,27 @@ public class Regis_odont01 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton B_Agre_cita;
-    private javax.swing.JTextField fieldDi;
-    private javax.swing.JTextField fieldDi1;
-    private javax.swing.JTextField fieldDi2;
-    private javax.swing.JTextField fieldDi3;
-    private javax.swing.JTextField fieldDi4;
-    private javax.swing.JTextField fieldDi5;
-    private javax.swing.JTextField fieldDi6;
-    private javax.swing.JTextField fieldDi8;
+    public javax.swing.JButton B_Agre_Odonto;
+    private javax.swing.JComboBox<String> ComboEstado;
+    public javax.swing.JTextField fieldApellido;
+    private javax.swing.JTextField fieldContraseña;
+    public javax.swing.JTextField fieldCorreo;
+    public javax.swing.JTextField fieldDocumento;
+    public javax.swing.JTextField fieldEspecializa;
+    public javax.swing.JTextField fieldFechaNacimiento;
+    public javax.swing.JTextField fieldLugarGraduacion;
+    public javax.swing.JTextField fieldNombre;
+    public javax.swing.JTextField fieldTipoDocumento;
+    private javax.swing.JTextField fieldUsuario;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
