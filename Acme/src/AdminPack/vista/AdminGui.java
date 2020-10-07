@@ -582,6 +582,11 @@ public class AdminGui extends javax.swing.JFrame {
 
     private void B_HistoClinicasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_B_HistoClinicasActionPerformed
 
+        /*
+        
+        HistoriaClinicaAction
+        */    
+        
         Vent_histo_clinic ventanaHistoClinic = new Vent_histo_clinic();
         ventanaHistoClinic.setSize(780, 570);
         ventanaHistoClinic.setLocation(30,60);
