@@ -12,6 +12,12 @@ public class CtrlUsuario {
     private ConsultasUsuario modC;
     private Regis_odont01 frm;
     
+    /*
+    
+    Revisando error en el this :3
+    
+    */
+    
     public CtrlUsuario(Usuario mod, ConsultasUsuario modC, Regis_odont01 frm){
         this.mod = mod;
         this.modC = modC;
