@@ -18,6 +18,7 @@ import static AdminPack.vista.Vent_users.panelUsersVent;
 import javax.swing.ImageIcon;
 
 
+
 /**
  *
  * @author Andres
@@ -45,6 +46,7 @@ public class AdminGui extends javax.swing.JFrame {
    ImageIcon iconobtn9 = new ImageIcon("src/acme/Images/HistoriasClinicas_B_Selected.png");
     
     public AdminGui() {
+        
         initComponents();
         
         
