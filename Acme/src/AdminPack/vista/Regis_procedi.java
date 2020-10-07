@@ -82,7 +82,7 @@ public class Regis_procedi extends javax.swing.JFrame {
 
         jLabel11.setFont(new java.awt.Font("Bahnschrift", 0, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel11.setText("PROCEDIMIETOS");
+        jLabel11.setText("PROCEDIMIENTOS");
 
         javax.swing.GroupLayout panelRegisProcediLayout = new javax.swing.GroupLayout(panelRegisProcedi);
         panelRegisProcedi.setLayout(panelRegisProcediLayout);
