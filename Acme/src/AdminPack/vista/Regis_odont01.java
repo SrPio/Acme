@@ -329,9 +329,9 @@ public class Regis_odont01 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton B_Agre_Odonto;
-    private javax.swing.JComboBox<String> ComboEstado;
+    public javax.swing.JComboBox<String> ComboEstado;
     public javax.swing.JTextField fieldApellido;
-    private javax.swing.JTextField fieldContraseña;
+    public javax.swing.JTextField fieldContraseña;
     public javax.swing.JTextField fieldCorreo;
     public javax.swing.JTextField fieldDocumento;
     public javax.swing.JTextField fieldEspecializa;
@@ -339,7 +339,7 @@ public class Regis_odont01 extends javax.swing.JFrame {
     public javax.swing.JTextField fieldLugarGraduacion;
     public javax.swing.JTextField fieldNombre;
     public javax.swing.JTextField fieldTipoDocumento;
-    private javax.swing.JTextField fieldUsuario;
+    public javax.swing.JTextField fieldUsuario;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
