@@ -18,9 +18,11 @@ import static AdminPack.vista.Vent_users.panelUsersVent;
 import javax.swing.ImageIcon;
 
 /**
- *
+ * Daniel Vargas Cano
  * @author Andres
  */
+
+
 public class AdminGui extends javax.swing.JFrame {
     
    ImageIcon iconobtnNS = new ImageIcon("src/acme/Images/User_B.png");
