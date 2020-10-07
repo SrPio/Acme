@@ -17,8 +17,6 @@ import static AdminPack.vista.Vent_reportes.panelRepoVent;
 import static AdminPack.vista.Vent_users.panelUsersVent;
 import javax.swing.ImageIcon;
 
-
-
 /**
  *
  * @author Andres
