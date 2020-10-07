@@ -22,6 +22,12 @@ public class Regis_factura extends javax.swing.JFrame {
     /**
      * Creates new form Vent_procedi
      */
+    
+    
+    /**
+     * 
+     * Cambiando registrar factura
+     */
     public Regis_factura() {
         initComponents();
     }
